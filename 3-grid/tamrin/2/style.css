@@ -1,0 +1,30 @@
+.conteiner{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 1fr;
+    height: 100vh;
+    gap: 10px;
+
+    div{
+        background-color: yellowgreen;
+    }
+
+     .box-1{
+        grid-column-start: 1;
+        grid-column-end: 3 ;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    
+     .box-3{
+        grid-row-start: 1;
+        grid-row-end: 5;
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
+
+        .box-6{
+            grid-column-start: 2;
+            grid-column-end: 4 ;
+
+        }
+}

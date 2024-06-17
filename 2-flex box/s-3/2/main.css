@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+
+.box-top{
+    background-color: rgb(128, 0, 128);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.boxes-bottom{
+
+    padding: 0 7px;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    height: 200px;
+
+    .box-bottom-left , .box-bottom-center{
+
+        flex-basis: 30%;
+        background-color: aqua;
+        padding: 5px;
+        overflow-y: scroll;
+        min-width: 160px;
+
+    }
+
+    .box-bottom-right{
+        flex: 1;
+        background-color: aqua;
+        padding: 5px;
+        overflow-y: scroll;
+        min-width: 230px;
+
+        .buttons{
+            display: flex;
+            gap: 10px;
+            button{
+                flex: 1;
+            }
+        }
+        button{
+            width: 100%;
+            margin: 5px 0;
+        }
+    }
+
+}

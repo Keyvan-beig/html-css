@@ -1,0 +1,36 @@
+.loding{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.loding > div{
+    width: 100px;
+    animation-name: loading;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+
+}
+#loadingShape{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: dashed 5px blue;
+}
+
+.loding > p{
+    font-size: 24px;
+    color: blue;
+}
+
+@keyframes loading {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}

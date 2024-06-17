@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: system-ui;
+}
+
+p {
+    margin: 5px;
+}
+
+h1 {
+    margin: 0 0 25px 0;
+}
+
+.main {
+    height: 100vh;
+    background-color: rgb(131, 204, 221);
+}
+
+.center-x {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.image>img {
+    width: 140px;
+    height: 100px;
+
+}
+
+.login-box {
+    padding: 15px 25px 35px 25px;
+    width: 25%;
+    background-color: white;
+    border-radius: 15px;
+    min-width: 250px;
+    box-shadow: 0 0 5px gray;
+}
+
+input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0 20px 0;
+    box-shadow: 0 0 5px gray;
+    border: none;
+    background-color: rgb(226, 230, 239);
+
+}
+
+input:focus {
+    background-color: white;
+    outline: none;
+}
+
+.ExpCvv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ExpCvv>div {
+    width: 48%;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(39, 143, 182);
+    border-radius: 10px;
+}
+
+button:hover,
+input:hover,
+input:focus {
+    transform: scale(1.01);
+}

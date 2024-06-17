@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container > div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.box1{
+    transform: rotate(-75deg);
+    animation: loading1 2s ease-in-out 220ms infinite;
+}
+.box2{
+    transform: rotate(-90deg);
+    animation: loading2 2s ease-in-out 250ms infinite;
+}
+.box3{
+    transform: rotate(-105deg);
+    animation: loading3 2s ease-in-out 300ms infinite;
+}
+.box4{
+    transform: rotate(-120deg);
+    animation: loading4 2s ease-in-out 350ms infinite;
+}
+.box5{
+    transform: rotate(-135deg);
+    animation: loading5 2s ease-in-out 400ms infinite;
+}
+.box6{
+    transform: rotate(-150deg);
+    animation: loading6 2s ease-in-out 450ms infinite;
+}
+.box7{
+    transform: rotate(-165deg);
+    animation: loading7 2s ease-in-out 500ms infinite;
+}
+.box8{
+    transform: rotate(-180deg);
+    animation: loading8 2s ease-in-out 550ms infinite;
+}
+
+@keyframes loading1 {
+    from{
+        transform: rotate(-75deg);
+    }
+    to{
+        transform: rotate(285deg);
+    }
+}
+@keyframes loading2 {
+    from{
+        transform: rotate(-90deg);
+    }
+    to{
+        transform: rotate(270deg);
+    }
+}
+@keyframes loading3 {
+    from{
+        transform: rotate(-105deg);
+    }
+    to{
+        transform: rotate(255deg);
+    }
+}
+@keyframes loading4 {
+    from{
+        transform: rotate(-120deg);
+    }
+    to{
+        transform: rotate(240deg);
+    }
+}
+@keyframes loading5 {
+    from{
+        transform: rotate(-135deg);
+    }
+    to{
+        transform: rotate(225deg);
+    }
+}
+@keyframes loading6 {
+    from{
+        transform: rotate(-150deg);
+    }
+    to{
+        transform: rotate(210deg);
+    }
+}
+@keyframes loading7 {
+    from{
+        transform: rotate(-165deg);
+    }
+    to{
+        transform: rotate(195deg);
+    }
+}
+@keyframes loading8 {
+    from{
+        transform: rotate(-180deg);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+}
